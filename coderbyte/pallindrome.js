@@ -20,4 +20,4 @@ function Palindrome(str) {
 }
    
 
-Palindrome(readline());           
+Palindrome("MADAM");           

@@ -17,6 +17,5 @@ function FibonacciChecker(num) {
   if (next > num)
     return "no";
 }
-   
 
-FibonacciChecker(readline());           
+FibonacciChecker(8);           
