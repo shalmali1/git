@@ -1,0 +1,314 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>The Gym - Personal Training</title>
+	
+	<meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+   	<link rel="stylesheet" href="blueberry.css" />
+
+<style type="text/css">
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+body {
+	background:#F0F0F0;
+	font:14px/20px Arial, san-serif;
+	color:#555;
+	margin:0;
+}
+
+h1 {
+text-align:center;
+font-size:180%;
+line-height:120%;
+padding:5% 0;
+}
+
+h2 {
+	text-decoration:underline;
+	line-height:280%;
+	padding-left:2%;
+}
+
+h3 {
+	line-height:110%;
+	padding:5% 0;
+}
+
+p {
+	padding:1%;
+}
+
+img {
+	text-align:center;
+	max-width:100%;
+	height:auto;
+	width:auto;
+}
+
+a {
+	color:#FFF;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a:hover {
+	color:#FFF;
+	text-decoration:underline;
+}
+
+header {
+	background-color:#405580;
+	width:100%;
+	height:86px;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:100;
+	opacity:0.90%;
+}
+
+#logo {
+	margin:20px;
+	float:left;
+	width:200px;
+	height:60px;
+	background:url(http://www.w3newbie.com/wp-content/uploads/the-gym.png) no-repeat center;
+}
+
+nav {
+	float:right;
+	padding:35px 20px 20px 0;
+
+}
+
+#menu-icon {
+display:hidden;
+width:40px;
+height:40px;
+background:url(http://www.w3newbie.com/wp-content/uploads/icon.png) center;
+}
+
+a:hover#menu-icon {
+	border-radius:4px 4px 0 0 ;	
+}
+
+ul {
+	list-style:none;
+}
+nav ul li {
+display:inline-block;
+float:left;
+padding:20px;
+
+}
+
+.current {
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+
+#doc {
+	margin:40px 0;	
+}
+
+#content {
+	margin:0 auto;
+	max-width:1140px;
+	margin-top:110px;
+}
+
+.blueberry {
+	max-width:960px;
+	margin-top:110px;
+}
+
+section {
+	width:29%;
+	float:left;
+	margin:2% 2%;
+	text-align:center;
+}
+
+.clear {
+	clear:both;
+}
+
+article {
+	float:left;
+	margin:0 auto;
+	width:50%;
+	height:auto;
+	padding:3%;
+}
+
+aside {
+	float:right;
+	margin:0 auto;
+	width:35%;
+	height:auto;
+	padding:4%;	
+}
+
+ul.gym li {
+	padding-left:3%;
+}
+
+footer {
+	background:#333333;
+	width:100%;
+	overflow:hidden;
+	opacity:0.90;
+}
+
+footer p, footer h3 {
+	color:#FFF;
+}
+
+footer p a {
+	color:#FFF;
+	text-decoration:none;
+}
+
+ul.social li {
+	display:inline;
+}
+
+ul.social li img {
+	height:50px;
+}
+
+footer.second {
+	border-top:1px solid #4D4E50;
+	background-color:#333333;
+	max-height:50px;
+	text-align:center;
+	opacity:0.95;
+}
+</style>
+
+<script src="https://ajax.googleapi.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="jqury.blueberry.js>"</script>
+<script>
+	$(window).load(function() {
+	$('.blueberry').blueberry();
+});	
+</script>
+</head>
+
+<body>
+	<header>
+		<a href="#" id="logo"></a>
+		<nav>
+			<a href="#" id="menu-icon"></a>
+			<ul>
+				<li><a href="#" class="current">Home</a></li>
+				<li><a href="#">Trainers</a></li>
+				<li><a href="#">Plans</a></li>
+				<li><a href="#">Pricing</a></li>
+				<li><a href="#">Facility</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+		<div id="doc">
+			<div id="content">
+				<div class="blueberry">
+					<ul class="slides">
+						<li><img src="http://www.w3newbie.com/wp-content/uploads/inside-gym.png" /></li>
+						<li><img src="http://www.w3newbie.com/wp-content/uploads/push-ups.png" /></li>
+						<li><img src="http://www.w3newbie.com/wp-content/uploads/chest-fly.png" /></li>
+						<li><img src="http://www.w3newbie.com/wp-content/uploads/training.png" /></li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+		<section>
+			<img src="http://www.w3newbie.com/wp-content/uploads/trainers.png" />
+			<h1>Best Trainers Around!</h1>
+			<p>The gym has found a home in an old single screen movie theatre which we have converted into a plastic playground for the vertical adventurer.Located in the heart of downtown, The Studio is San Jose's premier indoor climbing.</p>
+		</section>
+		
+		<section>
+			<img src="http://www.w3newbie.com/wp-content/uploads/location.png" />
+			<h1>Local & Convenient</h1>
+			<p>So whether you are looking to rope up, boulder or get your yoga or fitness fix look no further than The Studio and come be part of our exciting community.Do your kids love rock climbing?</p>
+		</section>
+		
+		<section>
+			<img src="http://www.w3newbie.com/wp-content/uploads/check.png" />
+			<h1>Check us out-Free!</h1>
+			<p>The Studio compliments its comprehensive climbing area with a robust calendar of fitness classes including yoga, core & more, TRX, conditioning classes and bootcamps.Do you love two hours of peace? </p>
+		</section>
+		
+		<div class="clear"></div>
+		
+		<article>
+			<img src="http://www.w3newbie.com/wp-content/uploads/gym-classes.jpg" />
+		</article>
+		
+		<aside>
+			<h2>Our Group Class Schedule</h2>
+			<ul class="gym">
+				<li><h3>Studio Cycling at 8 a.m. - 60 minutes</h3></li>
+				<li><h3>Abs Sculpting at 12 p.m. - 30 minutes</h3></li>
+				<li><h3>Power Yoga at 10 a.m. - 60 minutes</h3></li>
+				<li><h3>Boot Camp at 2 p.m. - 30 minutes</h3></li>
+				<li><h3>Butt Sculpting at 4 p.m. - 60 minutes</h3></li>
+			</ul>
+		</aside>
+		
+		<div class="clear"></div>
+			<section>
+			<h1>Ladies Section</h1>
+			<img src="http://www.w3newbie.com/wp-content/uploads/ladies-gym.jpg" />
+			<p>The Studio Climbing offers incredible climbing terrain along with a variety of fitness options.</p>
+	   </section>
+	   
+	   <section>
+			<h1>The Gym Floor</h1>
+			<img src="http://www.w3newbie.com/wp-content/uploads/gym-floor.jpg" />
+			<p>You will find hundreds of routes and boulder problems adorning slab walls, steep overhangs, dihedrals.</p>
+	   </section>
+	   
+	   <section>
+			<h1>Free Weights</h1>
+			<img src="http://www.w3newbie.com/wp-content/uploads/free-weights.jpg" />
+			<p>If you are in search of group fitness activities, our multi purpose fitness room houses yoga.</p>
+	   </section>
+		
+		<footer>
+			<section>
+				<h3><b>The Gym</b></h3>
+				<p><b>215-555-5555</b><br><br>
+				1700 Chestnut Street<br>
+				New York, NY<br>
+				trainer@thegym.com</p>
+			</section>
+			
+			<section>
+				<h3>Connect With Us!</h3>
+				<ul class= "social">
+					<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/facebook1.png" /></a></li>
+					<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/googleplus.png" /></a></li>
+					<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/twitter1.png" /></a></li>
+					<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/youtube1.png" /></a></li>				
+				</ul>
+			</section>
+			
+			<section>
+					<img src="http://www.w3newbie.com/wp-content/uploads/weight-lifter.png" />	
+			</section>	
+		</footer>
+		<footer class="second">
+			<p>&copy; Copyright-The Gym, 2015</p>
+		</footer>
+		
+
+</body>
+</html>
