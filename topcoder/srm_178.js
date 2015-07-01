@@ -5,9 +5,11 @@
 
 function SimpleCalculator(str) {
     
-    for (var i = 0; i < str.length-1; i++) {
+    for (var i = 0; i < str.length-1; i++) 
+    {
        if (str[i] == '*' || str[i] == '-'
-       || str[i] == '+' || str[i] == '/') {
+       || str[i] == '+' || str[i] == '/') 
+       {
            result1 = str.substring(0,i) * 1;
            result2 = str.substring(i+1, str.length) * 1;
            
