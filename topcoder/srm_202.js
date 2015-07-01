@@ -11,7 +11,8 @@ function LetterStrings(words) {
         for (var j = 0; j < word.length; j++) 
         {
             if (word.charAt(j) >= 'a' && word.charAt(j) <= 'z'
-           || word.charAt(j) >= 'A' && word.charAt(j) <= 'Z') {
+           || word.charAt(j) >= 'A' && word.charAt(j) <= 'Z') 
+            {
                count = count + 1;
            }
             
