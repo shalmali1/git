@@ -12,7 +12,8 @@ function sumDigits(str) {
 
 function LuckyTicketSubstring(str) {
     var len = 0;
-    /*checking max substring first is more efficient. so comparing from big            *substring to small substring
+    /*checking max substring first is more efficient. so comparing from big            
+     *substring to small substring
      */
     for (var n = Math.floor(str.length/2); n >= 1; n--) {
         for (var j = 0; j < str.length; j++) {
